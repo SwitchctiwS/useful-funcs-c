@@ -1,3 +1,8 @@
 ./input/main.o
 ./input/input.exe
 ./input/input/input.o
+
+./continue-prompt/main.o
+./continue-prompt/continue-prompt.exe
+./continue-prompt/continue-prompt/continue-prompt.o
+
