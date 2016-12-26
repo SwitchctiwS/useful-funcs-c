@@ -1,4 +1,3 @@
-input/main.h.gch
-input/main.o
-input/input.exe
-input/input/input.o
+./input/main.o
+./input/input.exe
+./input/input/input.o

@@ -13,7 +13,5 @@ int main(int argc, char** argv) {
     str = input(buffer);
     printf("%s\n", str);
 
-    continue_prompt();
-
     return 0;
 }

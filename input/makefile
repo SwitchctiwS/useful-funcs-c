@@ -1,12 +1,12 @@
-all: main.o input.o
+all: main.o input/input.o
 	gcc main.o input/input.o -o input.exe
 
 main.o:
 	gcc main.c -c
 
-input.o:
+input/input.o:
 	cd input; make
 
 clean:
-	rm main.o
+	rm main.o input.exe
 	cd input; make clean

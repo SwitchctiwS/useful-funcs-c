@@ -1,4 +1,4 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-char* input(int buffer);
+void continue_prompt();
