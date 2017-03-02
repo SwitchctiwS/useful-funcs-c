@@ -1,11 +1,7 @@
-all: main.o input/input.o
-	gcc main.o input/input.o -o input.exe
-
-main.o:
-	gcc main.c -c
-
-input/input.o:
+all:
+	gcc -c main.c
 	cd input; make
+	gcc main.o input/input.o -o input.exe
 
 clean:
 	rm main.o input.exe

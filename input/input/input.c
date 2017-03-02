@@ -1,4 +1,4 @@
-#include "../../main.h"
+#include "./input.h"
 
 /*Decription: 
 	Gets input from user

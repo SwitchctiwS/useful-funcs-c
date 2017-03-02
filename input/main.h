@@ -1,1 +1,1 @@
-#include "input/inc/input.h"
+#include "./input/input.h"

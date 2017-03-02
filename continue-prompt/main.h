@@ -1,1 +1,1 @@
-#include "continue-prompt/inc/continue-prompt.h"
+#include "continue-prompt/continue-prompt.h"

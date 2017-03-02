@@ -1,5 +1,4 @@
-#include "../../main.h"
-
+#include "./continue-prompt.h"
 void continue_prompt() {
 	#ifdef linux
 	// Linux-specific version:

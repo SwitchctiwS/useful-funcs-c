@@ -1,7 +1,7 @@
 all: input.o
 
 input.o:
-	gcc src/input.c -c
+	gcc input.c -c
 
 clean:
 	rm input.o
